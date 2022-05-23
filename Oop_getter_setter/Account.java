@@ -21,16 +21,16 @@ public class Account {
 		balance = balance+d;
 	}
 	public void withdrawal(double d){
-		 balance = balance-d;
+		balance=getBalance()-d;
 	}
 	public double getBalance() {
 		return balance;
 	}
 	public void fundTransfer(double d){
-		balance = balance-d;
+		balance = getBalance()-d;
 	}
 	public void payBill(double d){
-		balance = balance-d;
+		balance = getBalance()-d;
 	}
 	
 }

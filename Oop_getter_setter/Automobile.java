@@ -21,7 +21,7 @@ public class Automobile {
 		speed = speed-speed;
 	}
 	public void changeGear(int cg) {
-		speed = cg;
+		
 	}
 	public void accelerator(int ac) {
 		speed = speed+ac;
