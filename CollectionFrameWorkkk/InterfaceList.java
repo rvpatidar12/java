@@ -14,7 +14,7 @@ public class InterfaceList {
 		L1.add(1,7);
 		System.out.println(L1);
 		L1.remove(3);// remove method will remove element present at that index position.
-		//L1.set(1,3);//it will replace the vlaue at 1st index with 3.
+		L1.set(1,3);//it will replace the vlaue at 1st index with 3.
 		System.out.println(L1);
 		System.out.println(L1.indexOf(3));//we have to use this method in s.o.p. and in bracket 
 		                                  //we put value who's index we want to find out.
