@@ -10,10 +10,10 @@ public class PersonInformation {
 		Account a = new Account();
 		a.setNumber("0123456789");
 		a.setAccountType("Savings");
-		a.deposit(5034567.67);
-		a.withdrawal(2000);
-		a.fundTransfer(50000);
-		a.payBill(54);
+		a.deposit(25000);
+		a.withdrawal(24000);
+		a.fundTransfer(0);
+		a.payBill(0);
 		
 		Automobile am = new Automobile();
 		am.setMake("Rolls Royce");
@@ -29,7 +29,7 @@ public class PersonInformation {
 		
 		a.getNumber();
 		a.getAccountType();
-		a.getBalance();
+	    a.getBalance();
 		
 		am.getColor();
 		am.getMake();
@@ -40,6 +40,8 @@ public class PersonInformation {
 		System.out.println("Adress :- "+p.getAdress());
 		System.out.println("Date Of Birth :- "+p.getDob());
 		System.out.println();
+	
+		
 		
 		System.out.println("Account Number :- "+a.getNumber());
 		System.out.println("Account Type :- "+a.getAccountType());
