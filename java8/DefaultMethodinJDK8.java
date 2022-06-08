@@ -6,3 +6,4 @@ public interface DefaultMethodinJDK8 {
 	}
 
 }
+
