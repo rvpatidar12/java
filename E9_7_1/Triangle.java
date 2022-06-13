@@ -1,26 +1,21 @@
-package Constructor;
+package E9_7_1;
 
-import E9_7_1.Shape;
-
-public class Triangle extends Shape1 {
+public class Triangle extends Shape {
     int base;
     int hight;
-    
-    public Triangle() {
-    }
-    
     public Double area() {
     	return (double) 1/2*(base*hight);
     }
     public int getBase() {
     	return base;
     }
-    public Triangle(int b, int hight) {
+    public void setBase(int b) {
     	base = b;
-    	this.hight= hight;
     }
 	public int getHight() {
 		return hight;
 	}
-	
+	public void setHight(int hight) {
+		this.hight = hight;
+	}
 }
